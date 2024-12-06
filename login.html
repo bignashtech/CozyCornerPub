@@ -10,7 +10,14 @@
     <title>Login</title>
 
     <style>
-     
+      #log {  
+        background: linear-gradient(45deg, rgba(255, 0, 123, 0.8), rgba(0, 123, 255, 0.8));  
+            color: white;  
+            border-radius: 5px;  
+            text-align: center;
+            max-width: 52%;
+            margin-left: 25%;
+        }  
         @media only screen and (max-width: 600px){
            #login{
              margin-top: 20%;
@@ -22,11 +29,11 @@
     <div id="login">
         <div class="container border px-5 col-md-6 mt-2 rounded-3 shadow bg-light">
             
-            <p class="lead fw-bold text-center text-primary mt-2 display-6">(Big Tech)</p>
+            <p id="log" class="lead fw-bold text-center mt-2 display-6">(Big Nash Tech)</p>
 
-            <p class="text-center lead text-muted fw-bold"> Welcome Back</p>
+            <p class="text-center lead text-muted fw-bold">You're Welcome!</p>
 
-            <h2 class="text-center fw-bolder display-4">Login</h2>
+            <h2 class="text-center fw-bolder display-6">Login</h2>
 
             <form class="p-3">
                 <div class="form-group mt-2">
@@ -41,14 +48,14 @@
                     <input type="password" placeholder="**********" class="form-control py-3 rounded-3" id="password">             
                 </div>
 
-                <div class="form-group mt-1">
+                <div class="form-group mt-3">
                     <input class="form-check-input" type="checkbox" id="check1"> 
                     <label class="form-check-label" for="check1">  
                         Remember me
                     </label>  
                 </div>
 
-                <div class="form-group mt-2">
+                <div class="form-group mt-3">
                     <a href="#" class="btn btn-primary form-control py-3 fw-bold">Login</a>   
                 </div>
 
