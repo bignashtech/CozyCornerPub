@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Register</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+  
+    <div class="container border py-4 px-5 mt-3 col-md-6 bg-light rounded-3 shadow">
+
+      <p class="text-center lead text-muted fw-bold"> Welcome Back</p>
+      <h1 class="text-center fw-bold text-primary">REGISTER</h1>
+
+      <form action="">
+        <label for="name" class="form-label mt-2">NAME:</label>
+
+        <input type="text" placeholder="Enter full name" class="form-control" id="name"/>
+
+        <label for="email" class="form-label mt-3">EMAIL:</label>
+
+        <input type="email" placeholder="Enter email"  class="form-control" id="email"/>
+
+        <label for="tel" class="form-label mt-3">CARD NUMBER:</label>
+
+        <input
+          type="tel"
+          placeholder="000 000 000 000"
+          class="form-control" id="tel"
+        />
+
+        <label for="date" class="form-label mt-3">EXPIRY DATE/CCV</label>
+
+        <input type="date" class="form-control" id="date"/>
+
+        <button class="btn btn-dark form-control mt-4">CHECKOUT</button>
+
+        <p class="mt-4 text-center">
+          Already have an account?
+          <a href="login.html" class="text-decoration-none">Login</a>
+        </p>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
